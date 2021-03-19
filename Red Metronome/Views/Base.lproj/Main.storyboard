@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Red_Metronome" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="hNg-fG-bd4">
+                                <rect key="frame" x="44" y="161" width="808" height="202"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="j2d-ve-baV" userLabel="test ROW">
+                                        <rect key="frame" x="0.0" y="0.0" width="808" height="100"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tih-r8-c3v">
+                                                <rect key="frame" x="0.0" y="0.0" width="99.5" height="100"/>
+                                                <color key="backgroundColor" name="ruby_red"/>
+                                                <color key="tintColor" name="cultured"/>
+                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="26"/>
+                                                <color key="textColor" name="cultured"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fkw-qn-Ez8">
+                                                <rect key="frame" x="101.5" y="0.0" width="99" height="100"/>
+                                                <color key="backgroundColor" name="ruby_red"/>
+                                                <color key="tintColor" name="cultured"/>
+                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="26"/>
+                                                <color key="textColor" name="cultured"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iej-1l-42l">
+                                                <rect key="frame" x="202.5" y="0.0" width="99.5" height="100"/>
+                                                <color key="backgroundColor" name="ruby_red"/>
+                                                <color key="tintColor" name="cultured"/>
+                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="26"/>
+                                                <color key="textColor" name="cultured"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kro-kG-GEg">
+                                                <rect key="frame" x="304" y="0.0" width="99" height="100"/>
+                                                <color key="backgroundColor" name="ruby_red"/>
+                                                <color key="tintColor" name="cultured"/>
+                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="26"/>
+                                                <color key="textColor" name="cultured"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g5y-oV-UHa">
+                                                <rect key="frame" x="405" y="0.0" width="99.5" height="100"/>
+                                                <color key="backgroundColor" name="ruby_red"/>
+                                                <color key="tintColor" name="cultured"/>
+                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="26"/>
+                                                <color key="textColor" name="cultured"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W6e-3v-V4S">
+                                                <rect key="frame" x="506.5" y="0.0" width="99" height="100"/>
+                                                <color key="backgroundColor" name="ruby_red"/>
+                                                <color key="tintColor" name="cultured"/>
+                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="26"/>
+                                                <color key="textColor" name="cultured"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6mH-v5-YtN">
+                                                <rect key="frame" x="607.5" y="0.0" width="99.5" height="100"/>
+                                                <color key="backgroundColor" name="ruby_red"/>
+                                                <color key="tintColor" name="cultured"/>
+                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="26"/>
+                                                <color key="textColor" name="cultured"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fjq-cE-WVj">
+                                                <rect key="frame" x="709" y="0.0" width="99" height="100"/>
+                                                <color key="backgroundColor" name="ruby_red"/>
+                                                <color key="tintColor" name="cultured"/>
+                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="26"/>
+                                                <color key="textColor" name="eerie_black"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="zN5-Dg-SZV" userLabel="bpm tap play ROW">
+                                        <rect key="frame" x="0.0" y="102" width="808" height="100"/>
+                                        <subviews>
+                                            <textField hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zfr-Zk-Qzq" userLabel="Bpm Textfield">
+                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="100"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="yeh-AC-yvb" userLabel="-10 -1">
+                                                <rect key="frame" x="0.0" y="0.0" width="200.5" height="100"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MX4-H5-rPf" userLabel="Minus10 Button">
+                                                        <rect key="frame" x="0.0" y="0.0" width="99.5" height="100"/>
+                                                        <color key="backgroundColor" name="ruby_red"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="100" id="ebl-H5-vzQ"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="26"/>
+                                                        <state key="normal" title="-10">
+                                                            <color key="titleColor" name="cultured"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="minus10ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BlW-FE-sWA"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jlr-be-W6x" userLabel="Minus1 Buton">
+                                                        <rect key="frame" x="101.5" y="0.0" width="99" height="100"/>
+                                                        <color key="backgroundColor" name="ruby_red"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="100" id="YV3-l4-WHh"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="26"/>
+                                                        <state key="normal" title="-1">
+                                                            <color key="titleColor" name="cultured"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="minus1ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VbF-dA-d4t"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="UQ5-5j-I6v" userLabel="+1 +10">
+                                                <rect key="frame" x="202.5" y="0.0" width="200.5" height="100"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OWv-OY-1cm" userLabel="Plus1 Button">
+                                                        <rect key="frame" x="0.0" y="0.0" width="99.5" height="100"/>
+                                                        <color key="backgroundColor" name="ruby_red"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="100" id="LBe-Mb-DtE"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="26"/>
+                                                        <state key="normal" title="+1">
+                                                            <color key="titleColor" name="cultured"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="plus1ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Wc-CT-UPl"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MCc-l1-ukZ" userLabel="Plus10 Button">
+                                                        <rect key="frame" x="101.5" y="0.0" width="99" height="100"/>
+                                                        <color key="backgroundColor" name="ruby_red"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="100" id="Z5V-mi-P0C"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="26"/>
+                                                        <state key="normal" title="+10">
+                                                            <color key="titleColor" name="cultured"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="plus10ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s70-pZ-7zy"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="120" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zsf-yt-q04">
+                                                <rect key="frame" x="405" y="0.0" width="200.5" height="100"/>
+                                                <color key="backgroundColor" name="cultured"/>
+                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="26"/>
+                                                <color key="textColor" name="ruby_red"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="LpB-cc-8Fx" userLabel="TAP PLAY">
+                                                <rect key="frame" x="607.5" y="0.0" width="200.5" height="100"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4HW-Dk-3kl" userLabel="Tap Button">
+                                                        <rect key="frame" x="0.0" y="0.0" width="99.5" height="100"/>
+                                                        <color key="backgroundColor" name="ruby_red"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="100" id="ZDp-vz-UbS"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="26"/>
+                                                        <state key="normal" title="TAP">
+                                                            <color key="titleColor" name="cultured"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="tapButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nlu-Rf-CA2"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0r1-jd-0Ut">
+                                                        <rect key="frame" x="101.5" y="0.0" width="99" height="100"/>
+                                                        <color key="backgroundColor" name="ruby_red"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="100" id="Cq8-MD-cEj"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="26"/>
+                                                        <state key="normal">
+                                                            <color key="titleColor" name="cultured"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="playStopButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TB5-My-M6a"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" name="cultured"/>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hNg-fG-bd4" secondAttribute="bottom" constant="30" id="KUB-hx-3As"/>
+                            <constraint firstItem="hNg-fG-bd4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eu6-Wl-UqV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hNg-fG-bd4" secondAttribute="trailing" id="sv8-Bg-55y"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bpmLabel" destination="zsf-yt-q04" id="wAv-78-VPf"/>
+                        <outlet property="bpmTextField" destination="Zfr-Zk-Qzq" id="nJi-Gf-DRP"/>
+                        <outlet property="label1" destination="tih-r8-c3v" id="amQ-OZ-5hm"/>
+                        <outlet property="label2" destination="fkw-qn-Ez8" id="u2B-CV-VPV"/>
+                        <outlet property="label3" destination="Iej-1l-42l" id="En5-p1-VuM"/>
+                        <outlet property="label4" destination="kro-kG-GEg" id="Mkf-zR-efx"/>
+                        <outlet property="label5" destination="g5y-oV-UHa" id="gE0-9J-QSL"/>
+                        <outlet property="label6" destination="W6e-3v-V4S" id="etD-MG-Q1P"/>
+                        <outlet property="label7" destination="6mH-v5-YtN" id="n6q-OI-fWI"/>
+                        <outlet property="label8" destination="Fjq-cE-WVj" id="dJ5-wM-RUh"/>
+                        <outlet property="minus10Button" destination="MX4-H5-rPf" id="VNa-sJ-g1o"/>
+                        <outlet property="minus1Button" destination="jlr-be-W6x" id="aYB-Ta-eGU"/>
+                        <outlet property="playStopButton" destination="0r1-jd-0Ut" id="CYs-OC-keI"/>
+                        <outlet property="plus10Button" destination="MCc-l1-ukZ" id="K7E-vx-8nb"/>
+                        <outlet property="plus1Button" destination="OWv-OY-1cm" id="HuD-Dj-ldf"/>
+                        <outlet property="tapButton" destination="4HW-Dk-3kl" id="hJn-dR-FPb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="32.8125"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="cultured">
+            <color red="0.96862745098039216" green="0.96862745098039216" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="eerie_black">
+            <color red="0.13725490196078433" green="0.10588235294117647" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ruby_red">
+            <color red="0.62352941176470589" green="0.019607843137254902" blue="0.12156862745098039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
